@@ -6,7 +6,7 @@
 [image1]: ./output_images/examples_training_data.png
 [image2]: ./output_images/color_histograms.png
 [image3]: ./output_images/spatial_binning.png
-[image4]: ./output_images/parameter_HOG.png
+[image4]: ./output_images/parameter_HOG.PNG
 [image5]: ./output_images/sliding_window1.png
 [video1]: ./output_images/test_out_video.mp4
 [video2]: ./output_images/test_long_out_video.mp4
