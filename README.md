@@ -19,6 +19,14 @@ Detecting Vehicles from camera images and tracking them is a key technology for 
 With this data a Linear SVM classifier is trained on a labeled training set of images. This classifier is then used to search for vehicles in images and drawing bounding boxes for vehicles detected. I did this Project during my time at the [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive).
 
 ---
+
+Running this Project
+---
+
+**Step 1** - Install the Udacity CarND Starter Kit from this [Source](https://github.com/udacity/CarND-Term1-Starter-Kit) - make sure you followed this [readme](https://github.com/udacity/CarND-Term1-Starter-Kit/blob/master/README.md) on how to set up the needed environments.
+
+**Step 2** - Copy the code from the ```process_video.py``` File into a Jupyter Notebook and run it. Alternatively run the File in Pyton.
+
 ## Main Approaches and Functions
 
 ### Histogram of Oriented Gradients (HOG)
