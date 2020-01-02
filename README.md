@@ -1,9 +1,6 @@
-# **Vehicle Detection Project**
+# **Vehicle Detection on Camera Data**
 
-## Introduction
-Detecting Vehicles from camera images and tracking them is a key technology for designing self-driving vehicles and drive them safely on real traffic situations. In this project, my goal is to create a pipeline to detect vehicles in a video stream and visualize them. This is mainly done by performing a feature extraction. The resuting feature vector contains Histogram of Orieted Gradient features, binned color features and color histogram features as well.
-
-With this data a Linear SVM classifier is trained on a labeled training set of images. This classifier is then used to search for vehicles in images and drawing bounding boxes for vehicles detected.
+<img src="examples/output_bboxes.png" width="480" alt="Intro Image with detected cars" />
 
 [//]: # (Image References)
 [image1]: ./output_images/examples_training_data.png
@@ -15,6 +12,11 @@ With this data a Linear SVM classifier is trained on a labeled training set of i
 [video2]: ./output_images/test_long_out_video.mp4
 [video3]: ./output_images/project_out_video.mp4
 
+
+## Introduction
+Detecting Vehicles from camera images and tracking them is a key technology for designing self-driving vehicles and drive them safely on real traffic situations. In this project, my goal is to create a pipeline to detect vehicles in a video stream and visualize them. This is mainly done by performing a feature extraction. The resuting feature vector contains Histogram of Orieted Gradient features, binned color features and color histogram features as well.
+
+With this data a Linear SVM classifier is trained on a labeled training set of images. This classifier is then used to search for vehicles in images and drawing bounding boxes for vehicles detected. I did this Project during my time at the [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive).
 
 ---
 ## Main Approaches and Functions
